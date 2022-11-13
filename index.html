@@ -4,31 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JS Assessment1</title>
+    <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
     <h1 style="text-align: center; text-decoration:underline; background-image:linear-gradient(to right,green,yellow, red)">JAVASCRIPT ASSESSMENT 1</h1>
     
-    <p><b>Question 1</b><br>
+    <p><b style="background-color: red;  color: white;">Question 1</b><br>
         Add two Numbers<br>
         You are provided with two numbers A and B. Your task is to add these two numbers.<br>
         Note: You have to complete AddTwoNumbers function. No need to take any input.
         </p>
     <p><b>Ans</b><br><pre>
-        const AddTwoNumbers = (a,b) => {
+        const AddTwoNumbers = (a,b) => 
+        {
             return a+b
         };
     </pre>
     </p><br>
-
-    <p><b>Question 2</b><br>
+<hr>
+    <p><b style="background-color: red;  color: white;">Question 2</b><br>
         Find if the conditions are obeyed or not?<br>
         You are given two number first as 
         A and second as B and check if both conditions (A<10 and A>B) are satisfied or not with the help of operators.<br>
         Note: You have to complete Is_Valid function. No need to take any input.
     </p>
     <p><b>Ans</b><br><pre>
-        const Is_Valid = (A,B) => {
+        const Is_Valid = (A,B) => 
+        {
             if(A<10&&A>B)
             {
               return true
@@ -37,11 +41,11 @@
             {
               return false
             }
-            };
+        };
     </pre>
     </p><br>
-
-    <p><b>Question 3</b><br>
+<hr>
+    <p><b style="background-color: red;  color: white;">Question 3</b><br>
         Check the conditons<br>
         You are given two numbers 
         A and B. You need to do the following checks:<br>
@@ -53,78 +57,82 @@
     </p>
     <p><b>Ans</b><br><pre>
         const Check = (A, B) => 
-{
-    if(A%10==0&&B%10==0)
-    {
-     return true
-    }
-    else if(A%10!=0&&B%10!=0)
-    {
-      return false
-    }
-    else if(A%10==0||B%10==0)
-    {
-      return true
-    }
-};
+        {
+            if(A%10==0&&B%10==0)
+            {
+            return true
+            }
+            else if(A%10!=0&&B%10!=0)
+            {
+            return false
+            }
+            else if(A%10==0||B%10==0)
+            {
+            return true
+            }
+        };
     </pre>
     </p><br>
-
-    <p><b>Question 4</b><br>
+<hr>
+    <p><b style="background-color: red;  color: white;">Question 4</b><br>
         Find the first digit of a 4 digit number<br>
         You are provided a four digit number N only. Your task is to print out the first digit of that number.<br>
         Note: You have to complete First_Digit function. No need to take any input.
     </p>
     <p><b>Ans</b><br><pre>
-        const First_Digit = (n) => {
+        const First_Digit = (n) => 
+        {
             var a = n/1000;
             b = parseInt(a)
             return b;
-          };
+        };
     </pre>
     </p><br>
-
-    <p><b>Question 5</b><br>
+<hr>
+    <p><b style="background-color: red;  color: white;">Question 5</b><br>
         Find the last digit of a 4 digit number<br>
         You are provided a four digit number N only. Your task is to print out the last digit of that number.<br>
         Note: You have to complete Last_Digit function. No need to take any input.
     </p>
     <p><b>Ans</b><br><pre>
-        const Last_Digit = (n) => {
+        const Last_Digit = (n) => 
+        {
             var a = n%10;
             b = parseInt(a);
             return b;
             
             
-          };
+        };
     </pre>
     </p><br>
-
-    <p><b>Question 6</b><br>
+<hr>
+    <p><b style="background-color: red; color: white;">Question 6</b><br>
         Find the remainder<br>
         You are provided with two numbers A and B where A as  divisor and B as  dividend.Your task is find the remainder.<br>
         Note: You have to complete Find_the_remainder function. No need to take any input.
     </p>
     <p><b>Ans</b><br><pre>
-        const Find_the_remainder = (a,b) => {
+        const Find_the_remainder = (a,b) =>
+        {
             return b%a;
         };
     </pre>
     </p><br>
-
-    <p><b>Question 7</b><br>
+<hr>
+    <p><b style="background-color: red;  color: white;">Question 7</b><br>
         Multipy two Numbers<br>
         You are provided with two numbers A and B. Your task is to multiply these two numbers.<br>
         Note: You have to complete Multiply_two_number function. No need to take any input.
     </p>
     <p><b>Ans</b><br><pre>
-        const Multiply_two_number = (a,b) => {
+        const Multiply_two_number = (a,b) =>
+        {
             return a*b;
         };
         </pre>
     </p><br>
-
-    <p><b>Question 8</b><br>
+<hr>
+    <p><b style="background-color: red;  color: white;">Question 8</b><br>
         Marks Calculator<br>
         Shyam has got his marks in three subjects as A, B, and C (out of 100).Write a program to calculate his total marks and his average.<br>
         Note: You have to complete Sum and Average functions. No need to take any input.
